@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convite: Guilherme & Camila</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Italianno&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: #2F3E33; /* Dark green matching prototype */
+      }
+      .font-serif { font-family: 'Playfair Display', serif; }
+      .font-script { font-family: 'Italianno', cursive; }
+      .font-sans { font-family: 'Montserrat', sans-serif; }
+      
+      /* Specific prototype colors */
+      .bg-wedding-green { background-color: #2F3E33; }
+      .bg-wedding-olive { background-color: #7D8854; }
+      .text-wedding-cream { color: #E8E5D8; }
+      .border-wedding-cream { border-color: #E8E5D8; }
+      
+      /* Animations for the envelope */
+      .envelope-open {
+        transform: translateY(-100vh);
+        transition: transform 1.2s cubic-bezier(0.77, 0, 0.175, 1);
+      }
+      
+      /* Custom input styling to match prototype */
+      .custom-input {
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: white;
+        border-radius: 8px;
+        padding: 12px 16px;
+      }
+      .custom-input::placeholder {
+        color: rgba(255, 255, 255, 0.4);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
